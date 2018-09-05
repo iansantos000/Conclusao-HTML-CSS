@@ -1,0 +1,68 @@
+
+
+
+    
+  .input-group,  { 
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 10px 5px;
+    border-radius: 5px;
+    input {
+      border-radius: 5px;
+      font-size: 20px;
+      &::placeholder{
+        color: #9b9b9b;
+      }
+    }
+    label, .input-date {
+      font-size: 20px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #9b9b9b;
+      align-self: center;
+    }
+    &.input-iten-cad {
+      label, input {
+        margin-bottom: 5px;
+      }
+    }
+    .input-group-icon {
+      padding: 6px 12px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1;
+      color: #555;
+      text-align: center;
+      background-color: #eee;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
+  }
+
+  input:focus, textarea:focus,  { 
+    font-size: 20px;
+    background-color: #5481b4;
+    color: #dddddd;
+    border-radius: 5px;
+    &::placeholder{
+      color: #eeeeee;
+    }
+  }
+  
+  select {
+    font-size: 18px;
+    option {
+      font-size: large;
+    }
+  }
+
+  textarea {
+    resize: none;
+  }
+  
+
+ 

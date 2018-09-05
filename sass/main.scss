@@ -1,0 +1,126 @@
+@import 'button';
+@import 'inputs';
+@import 'header';
+
+
+body {
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-stretch: normal;
+    background-color: azure;
+
+    h1 {
+      font-size: 36px;
+      font-weight: 800;
+      line-height: 0.67;
+      letter-spacing: 0.2px;
+      color: #9b9b9b;
+      -webkit-text-stroke: 1px #979797;
+    }
+  }
+  
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    .col-25 {
+      width: 23%;
+    }
+    .col-50 {
+      width: 47%;
+    }
+  }
+
+  .content-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .content-vlr {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  form {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .fieldset {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: groove;
+}
+  .fieldset-login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: groove;
+  }
+
+  .fieldset-home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: groove;
+    .img {
+        max-width:200px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+    }
+  }
+
+ 
+
+
+
+  /* 
+ Pra dispositivos que tem uma largura mínima de 768 pixels. Tablets, por exemplo.
+*/
+
+@media (max-width: 768px) {
+  form {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .fieldset {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: groove;
+}
+  
+}

@@ -1,0 +1,41 @@
+
+
+  .buttons-deck, .buton {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+    }
+
+
+  button {
+    width: 165px;
+    height: 44px;
+    border-radius: 100px;
+    border-width: 2.5px;
+    margin: 10px 5px;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.5);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    outline:none;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+    &:active {
+      opacity: 0.7;
+    }
+
+  }
+  
+  .button-cancelar {
+    border: solid 2.5px #4eb6ff;
+  }
+
+  .button-enviar {
+    background-color: #13cb65;
+    border: none;
+    color: #fff;
+  }
+  

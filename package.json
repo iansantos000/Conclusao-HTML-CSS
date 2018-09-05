@@ -1,0 +1,25 @@
+{
+  "name": "conclusao-html-css",
+  "version": "1.0.0",
+  "description": "Avalição HTML e CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": " node-sass --include-path sass sass/main.scss dist/css/main.css",
+    "start": "nodemon -e scss -x \"npm rum build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iansantos000/Conclusao-HTML-CSS.git"
+  },
+  "author": "Ian Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iansantos000/Conclusao-HTML-CSS/issues"
+  },
+  "homepage": "https://github.com/iansantos000/Conclusao-HTML-CSS#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.18.4"
+  }
+}
